@@ -1,0 +1,44 @@
+body {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#container {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  text-align: left;
+}
+
+label {
+  font-weight: 500;
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+input {
+  border-radius: 4px;
+  height: 2rem;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #363636;
+}
+
+a {
+  margin-top: 1rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+}

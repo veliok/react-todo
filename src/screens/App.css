@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h3 {
+  margin-top: 5rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: decimal;
+  border: 1px solid aquamarine;
+  border-radius: 10px;
+  padding: 2rem 3rem;
+}
+
+li {
+  position: relative;
+  padding: 1rem;
+  padding-right: 15rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(167, 249, 222, 0.204);
+}
+
+li .delete-button {
+  position: absolute;
+  right: 0;
+  font-size: 1rem;
+}
+
